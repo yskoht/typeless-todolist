@@ -1,0 +1,43 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@types/webpack-env": "^1.13.7",
+    "react": "16.8.4",
+    "react-dom": "16.8.4",
+    "react-scripts": "2.1.8",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "rxjs": "6.3.3",
+    "typeless": "0.0.14",
+    "typescript": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.7",
+    "@types/react-dom": "16.8.2",
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "tslint -p tsconfig.json --fix src/**/*.ts src/**/.*tsx",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
