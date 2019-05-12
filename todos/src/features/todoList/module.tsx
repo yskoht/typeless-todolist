@@ -24,7 +24,7 @@ const reducer = createReducer(initialState)
     );
   });
 
-export function useTodoListModule() {
+export function useTodoModule() {
   useModule({
     epic,
     reducer,

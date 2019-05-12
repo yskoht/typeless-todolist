@@ -16,7 +16,7 @@ const reducer = createReducer(initialState).on(
   }
 );
 
-export function useFooterModule() {
+export function useVisibilityFilterModule() {
   useModule({
     epic,
     reducer,

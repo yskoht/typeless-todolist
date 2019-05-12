@@ -1,14 +1,17 @@
 import React from 'react';
 import {
-  useTodoListModule,
+  useTodoModule,
   AddTodoComponent,
   VisibleTodoListComponent
 } from '../features/todoList/module';
-import { useFooterModule, FooterComponent } from '../features/footer/module';
+import {
+  useVisibilityFilterModule,
+  FooterComponent
+} from '../features/footer/module';
 
 export function App() {
-  useTodoListModule();
-  useFooterModule();
+  useTodoModule();
+  useVisibilityFilterModule();
 
   return (
     <>
