@@ -1,0 +1,30 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint-config-airbnb",
+      "tslint-config-prettier",
+      "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+      "prettier": true,
+      "no-boolean-literal-compare": true,
+      "jsx-alignment": false,
+      "jsx-curly-spacing": false,
+      "jsx-equals-spacing": false,
+      "jsx-no-multiline-js": false,
+      "jsx-wrap-multiline": false,
+      "import-name": false,
+      "variable-name": false,
+      "function-name": [true, {
+        "method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",
+        "private-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",
+        "protected-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",
+        "static-method-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$",
+        "function-regex": "^\\*?\\[?[a-zA-Z][\\w\\d\\.]*\\]?$"
+      }]
+    },
+    "rulesDirectory": [
+      "tslint-plugin-prettier"
+    ]
+}
